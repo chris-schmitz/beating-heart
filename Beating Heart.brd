@@ -3,28 +3,28 @@
 <eagle version="9.4.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
 <layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
 <layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
 <layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
@@ -143,7 +143,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyYmI4Y2E0" projecturn="a.cGVyc29uYWw6dWUyYmI4Y2E0IzIwMjAwMTA4MjUzMTYzODMx" f3durn="urn:adsk.wipprod:dm.lineage:N92dAwQFSgCnz1QCmWvhIg" pcbguid="e67baaf5-fc13-4f8e-ae15-dcde1d940e68" lastpulledtime="2020-01-12T14:48:57Z" lastsyncedchangeguid="fa574876-432f-b617-f7b0-054de9755128"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyYmI4Y2E0" projecturn="a.cGVyc29uYWw6dWUyYmI4Y2E0IzIwMjAwMTA4MjUzMTYzODMx" f3durn="urn:adsk.wipprod:dm.lineage:N92dAwQFSgCnz1QCmWvhIg" pcbguid="e67baaf5-fc13-4f8e-ae15-dcde1d940e68" lastpulledtime="2020-01-12T14:48:57Z" lastsyncedchangeguid="b687b184-d3ea-009a-4daf-e1b7f81465af"/>
 <plain>
 <hole x="3.81" y="29.21" drill="2.5"/>
 <hole x="46.99" y="29.21" drill="2.5"/>
@@ -612,15 +612,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="PROD_ID" value="IC-09092" x="25.4" y="27.94" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="22.225" y="23.876" size="1.27" layer="25" font="vector"/>
 </element>
-<element name="S3" library="JS202011SCQN" package="SW_JS202011SCQN" value="JS202011SCQN" x="35.56" y="38.1" smashed="yes" rot="MR0">
-<attribute name="DESCRIPTION" value=" Slide Switch DPDT Surface Mount " x="35.56" y="38.1" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DIGI-KEY_PART_NUMBER" value="401-2002-1-ND" x="35.56" y="38.1" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/c-k/JS202011SCQN/401-2002-1-ND/1640098?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="35.56" y="38.1" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MF" value="C&amp;K" x="35.56" y="38.1" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="MP" value="JS202011SCQN" x="35.56" y="38.1" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="NAME" x="39.566990625" y="43.10873125" size="1.01776875" layer="26" rot="MR0"/>
-<attribute name="PACKAGE" value="None" x="35.56" y="38.1" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VALUE" x="39.564990625" y="32.092509375" size="1.01726875" layer="28" rot="MR0"/>
+<element name="S3" library="JS202011SCQN" package="SW_JS202011SCQN" value="JS202011SCQN" x="39.37" y="39.37" smashed="yes" rot="MR0">
+<attribute name="DESCRIPTION" value=" Slide Switch DPDT Surface Mount " x="39.37" y="39.37" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="401-2002-1-ND" x="39.37" y="39.37" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.com/product-detail/en/c-k/JS202011SCQN/401-2002-1-ND/1640098?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol" x="39.37" y="39.37" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MF" value="C&amp;K" x="39.37" y="39.37" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MP" value="JS202011SCQN" x="39.37" y="39.37" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="43.376990625" y="44.37873125" size="1.01776875" layer="26" rot="MR0"/>
+<attribute name="PACKAGE" value="None" x="39.37" y="39.37" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VALUE" x="43.374990625" y="33.362509375" size="1.01726875" layer="28" rot="MR0"/>
 </element>
 </elements>
 <signals>
@@ -647,9 +647,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <contactref element="C9" pad="1"/>
 <contactref element="C10" pad="1"/>
 <contactref element="C11" pad="1"/>
-<wire x1="27.94" y1="31.75" x2="27.989775" y2="31.700225" width="0.4064" layer="16"/>
 <via x="27.989775" y="31.700225" extent="1-16" drill="0.7874"/>
-<contactref element="U$1" pad="+$1"/>
 <wire x1="31.66" y1="36.45" x2="31.77" y2="36.56" width="0.4064" layer="1"/>
 <wire x1="31.77" y1="36.56" x2="35.56" y2="36.56" width="0.4064" layer="1"/>
 <wire x1="31.66" y1="36.45" x2="34.58" y2="39.37" width="0.4064" layer="1"/>
@@ -718,24 +716,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="9.89" y1="36.56" x2="11.43" y2="36.56" width="0.4064" layer="1"/>
 <wire x1="13.97" y1="39.37" x2="15.24" y2="38.1" width="0.4064" layer="1"/>
 <wire x1="15.24" y1="38.1" x2="15.24" y2="36.56" width="0.4064" layer="1"/>
-<wire x1="27.989775" y1="31.700225" x2="28.03955" y2="31.75" width="0.4064" layer="16"/>
 <wire x1="19.14" y1="39.75" x2="21.59" y2="37.3" width="0.4064" layer="1"/>
 <wire x1="21.59" y1="34.56" x2="23.13" y2="33.02" width="0.4064" layer="1"/>
 <wire x1="21.59" y1="37.3" x2="21.59" y2="34.56" width="0.4064" layer="1"/>
-<contactref element="S3" pad="1"/>
 <contactref element="U2" pad="8"/>
 <contactref element="S3" pad="2"/>
-<wire x1="33.6" y1="27.94" x2="38.06" y2="32.4" width="0.4064" layer="16"/>
-<wire x1="38.06" y1="32.4" x2="38.06" y2="35.35" width="0.4064" layer="16"/>
-<wire x1="35.56" y1="35.35" x2="35.56" y2="34.29" width="0.4064" layer="16"/>
-<wire x1="20.665" y1="31.405" x2="27.36" y2="38.1" width="0.4064" layer="16"/>
-<wire x1="27.36" y1="38.1" x2="36.83" y2="38.1" width="0.4064" layer="16"/>
-<wire x1="36.83" y1="38.1" x2="38.06" y2="36.87" width="0.4064" layer="16"/>
-<wire x1="38.06" y1="36.87" x2="38.06" y2="35.35" width="0.4064" layer="16"/>
-<wire x1="35.56" y1="35.35" x2="34.26198125" y2="34.05198125" width="0.4064" layer="16"/>
-<wire x1="34.26198125" y1="34.05198125" x2="34.26198125" y2="33.85065" width="0.4064" layer="16"/>
-<wire x1="34.26198125" y1="33.85065" x2="32.11155625" y2="31.700225" width="0.4064" layer="16"/>
-<wire x1="32.11155625" y1="31.700225" x2="27.989775" y2="31.700225" width="0.4064" layer="16"/>
 <wire x1="27.989775" y1="31.700225" x2="29.127" y2="30.563" width="0.4064" layer="1"/>
 <wire x1="29.127" y1="30.563" x2="29.127" y2="29.845" width="0.4064" layer="1"/>
 <wire x1="27.75935" y1="37.50198125" x2="25.76065" y2="37.50198125" width="0.4064" layer="1"/>
@@ -745,7 +730,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="28.81133125" y1="36.45" x2="27.75935" y2="37.50198125" width="0.4064" layer="1"/>
 <wire x1="25.40801875" y1="35.75065" x2="27.989775" y2="33.16889375" width="0.4064" layer="1"/>
 <wire x1="27.989775" y1="33.16889375" x2="27.989775" y2="31.700225" width="0.4064" layer="1"/>
-<wire x1="27.75935" y1="37.50198125" x2="27.36" y2="38.1" width="0" layer="19" extent="1-16"/>
+<wire x1="38.050225" y1="31.700225" x2="39.37" y2="33.02" width="0.4064" layer="16"/>
+<wire x1="38.050225" y1="31.700225" x2="27.989775" y2="31.700225" width="0.4064" layer="16"/>
+<wire x1="39.37" y1="33.02" x2="39.37" y2="36.62" width="0.4064" layer="16"/>
 </signal>
 <signal name="N$3">
 <contactref element="LED1" pad="2-DOUT"/>
@@ -841,7 +828,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <contactref element="C2" pad="2"/>
 <contactref element="U$1" pad="-"/>
 <contactref element="U2" pad="4"/>
-<polygon width="0.254" layer="1" pour="cutout" orphans="yes">
+<polygon width="0.254" layer="1" orphans="yes">
 <vertex x="1.416" y="37.205"/>
 <vertex x="0.996" y="34.552"/>
 <vertex x="0.998" y="31.98"/>
@@ -904,7 +891,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="1.981" y="39.062"/>
 <vertex x="1.615" y="37.97"/>
 </polygon>
-<polygon width="0.254" layer="16" pour="cutout" orphans="yes">
+<polygon width="0.254" layer="16" orphans="yes">
 <vertex x="1.416" y="37.205"/>
 <vertex x="0.996" y="34.552"/>
 <vertex x="0.998" y="31.98"/>
@@ -982,28 +969,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="24.892" y1="22.86" x2="25.4" y2="22.86" width="0.4064" layer="1"/>
 <via x="25.4" y="22.86" extent="1-16" drill="0.7874"/>
 <wire x1="25.4" y1="22.86" x2="25.4" y2="27.94" width="0.4064" layer="16"/>
-<wire x1="39.37" y1="34.56" x2="48.17" y2="33.975" width="0" layer="19" extent="1-1"/>
-<wire x1="35.56" y1="34.56" x2="39.37" y2="34.56" width="0" layer="19" extent="1-1"/>
-<wire x1="38.37" y1="30.48" x2="39.37" y2="34.56" width="0" layer="19" extent="1-1"/>
-<wire x1="32.02" y1="22.86" x2="38.37" y2="30.48" width="0" layer="19" extent="1-1"/>
-<wire x1="26.67" y1="20.05" x2="32.02" y2="22.86" width="0" layer="19" extent="1-1"/>
-<wire x1="24.13" y1="20.05" x2="26.67" y2="20.05" width="0" layer="19" extent="1-1"/>
-<wire x1="24.892" y1="22.86" x2="24.13" y2="20.05" width="0" layer="19" extent="1-1"/>
-<wire x1="20.05" y1="22.86" x2="21.717" y2="26.035" width="0" layer="19" extent="1-1"/>
-<wire x1="25.13" y1="33.02" x2="25.4" y2="27.94" width="0" layer="19" extent="1-16"/>
-<wire x1="24.04" y1="36.45" x2="25.13" y2="33.02" width="0" layer="19" extent="1-1"/>
-<wire x1="26.76" y1="39.75" x2="24.04" y2="36.45" width="0" layer="19" extent="1-1"/>
-<wire x1="15.33" y1="18.16" x2="20.05" y2="22.86" width="0" layer="19" extent="1-1"/>
-<wire x1="35.47" y1="14.86" x2="32.02" y2="22.86" width="0" layer="19" extent="1-1"/>
-<wire x1="15.24" y1="34.56" x2="24.04" y2="36.45" width="0" layer="19" extent="1-1"/>
-<wire x1="11.43" y1="34.56" x2="15.24" y2="34.56" width="0" layer="19" extent="1-1"/>
-<wire x1="13.7" y1="30.48" x2="15.24" y2="34.56" width="0" layer="19" extent="1-1"/>
-<wire x1="6.44" y1="25.78" x2="13.7" y2="30.48" width="0" layer="19" extent="1-1"/>
-<wire x1="2.63" y1="36.575" x2="11.43" y2="34.56" width="0" layer="19" extent="1-1"/>
-<wire x1="34.38" y1="44.83" x2="26.76" y2="39.75" width="0" layer="19" extent="1-1"/>
-<wire x1="44.36" y1="22.48" x2="38.37" y2="30.48" width="0" layer="19" extent="1-1"/>
-<wire x1="12.79" y1="44.83" x2="11.43" y2="34.56" width="0" layer="19" extent="1-1"/>
-<wire x1="27.85" y1="7.24" x2="35.47" y2="14.86" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="VBAT">
+<contactref element="U$1" pad="+$1"/>
+<contactref element="S3" pad="1"/>
+<wire x1="33.6" y1="27.94" x2="38.1" y2="27.94" width="0.4064" layer="16"/>
+<wire x1="38.1" y1="27.94" x2="41.87" y2="31.71" width="0.4064" layer="16"/>
+<wire x1="41.87" y1="31.71" x2="41.87" y2="36.62" width="0.4064" layer="16"/>
 </signal>
 </signals>
 <mfgpreviewcolors>

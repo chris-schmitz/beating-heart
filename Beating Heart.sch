@@ -5023,6 +5023,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <sheets>
 <sheet>
 <plain>
+<text x="-48.26" y="88.9" size="1.778" layer="91">Coin cell battery</text>
+<text x="-43.18" y="127" size="1.778" layer="91">DPDT slide switch</text>
 </plain>
 <instances>
 <instance part="LED1" gate="G$1" x="22.86" y="17.145" smashed="yes"/>
@@ -5159,8 +5161,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="-2.54" y="97.028" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="S3" gate="G$1" x="-12.7" y="119.38" smashed="yes">
-<attribute name="NAME" x="-27.9622" y="121.9237" size="1.27185" layer="95"/>
-<attribute name="VALUE" x="-27.9512" y="114.296259375" size="1.270940625" layer="96"/>
+<attribute name="NAME" x="-25.4222" y="119.3837" size="1.27185" layer="95"/>
+<attribute name="VALUE" x="-35.5712" y="111.756259375" size="1.270940625" layer="96"/>
 </instance>
 </instances>
 <busses>
@@ -5259,13 +5261,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="C11" gate="G$1" pin="1"/>
 <pinref part="SUPPLY11" gate="G$1" pin="VCC"/>
 <wire x1="264.16" y1="76.2" x2="264.16" y2="81.28" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="+"/>
-<wire x1="-22.86" y1="88.9" x2="-22.86" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="-22.86" y1="93.98" x2="-17.78" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="S3" gate="G$1" pin="1"/>
-<wire x1="-17.78" y1="93.98" x2="-17.78" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U2" gate="U1" pin="VCC"/>
@@ -5465,6 +5460,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pinref part="LED2" gate="G$1" pin="GND"/>
 <wire x1="52.07" y1="6.985" x2="52.07" y2="-2.54" width="0.1524" layer="91"/>
 <wire x1="52.07" y1="-2.54" x2="50.8" y2="-2.54" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="VBAT" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="+"/>
+<wire x1="-22.86" y1="88.9" x2="-22.86" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="-22.86" y1="93.98" x2="-17.78" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="S3" gate="G$1" pin="1"/>
+<wire x1="-17.78" y1="93.98" x2="-17.78" y2="106.68" width="0.1524" layer="91"/>
+<label x="-25.4" y="93.98" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
